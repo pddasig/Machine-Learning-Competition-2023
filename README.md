@@ -66,7 +66,7 @@ You will be given nine wells with well logs aligned, then you will train a model
 
 Submissions are evaluated based on normalized mean squared error(NMSE) of corrected well logs and mean absolute deviation (MAD) of depth shift prediction, the final score will be rank transformed and averaged to avoid the scaling of different metrics. 
 
-$$NMSE = \frac{\frac{1}{m}\sum_{i=1}^{m}(\hat{\mathbf{y_{i}}} - \mathbf{y_{i}})^{2}}{Var(\mathbf{y_{i}})}$$
+$$NMSE = \frac{1}{m}\frac{1}{Var(\mathbf{y_{i}})}\sum_{i=1}^{m}(\hat{\mathbf{y_{i}}} - \mathbf{y_{i}})^{2}$$
 
 where
 - $\hat{y_i}$ the prediction of the **values** of shifted well logs, $y_i$ is the actual **values** of well logs shifted by a petrophysicist. 
