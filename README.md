@@ -1,5 +1,5 @@
 # 2023 SPWLA PDDA Machine Learning Competition
-## Well-log based reservoir property estimation with machine learning
+## Automatic Well-Log Depth Shift with Data-Driven Methods
 
 <img style="float: left;" src="image/pdda.png" alt="pdda" title="" width="300" height="100"/>
 <!-- 
@@ -10,9 +10,49 @@
 - <a>Evaluation</a>
 - <a>Timeline</a>
 - <a>Competition Rules</a>
-- <a>Prize Policy</a>
-- <a>Leaderboard</a>
-- <a>Data Licensing</a> -->
+ -->
+
+### <a>Call for Registration</a>
+Dear petrophysics and data science enthusiasts,
+
+We are thrilled to announce our upcoming "Automatic Well-Log Depth Shift with Data-Driven Methods" machine learning competition, designed to challenge participants to develop innovative solutions for the critical task of depth-shift correction in well logs.
+
+Well logs are crucial data sources for the oil and gas industry, providing critical information about subsurface formations and geological properties. However, the data collected through well logs can often be affected by borehole environments, such as the sticking and slipping of logging tools, resulting in inaccurate and unreliable results. Mannual depth shift of well logs is time-consuming and subject to the expertise of interpreters. To automate this process and improve the accuracy of depth shift, this is where your skills in machine learning can make a significant difference.
+
+We invite all petrophysicists, data scientists, machine learning engineers, and anyone passionate about data-driven solutions to join our competition. The objective is to develop a depth shift correction model that can accurately and efficiently correct depth shifts in well logs.
+
+The competition will be hosted on a Codalab and will run for eight weeks. Participants will have access to a well-curated dataset, including a training set of 9 depth-aligned well logs and a test set of 3 misasligned well logs. They will develop data-driven model to automatically predict the depth shift for misaligned well logs in the test set. Their solutions will be evaluated based on the prediction accuracy of depth shift and the shifted well-log values. More details can be found in the tutorial provided.
+
+The winners will receive attractive prizes, including cash rewards, certificates, and a chance to showcase their solution to industry experts in the upcoming SPWLA conferences.
+
+So, if you are interested in testing your machine learning skills and contributing to the oil and gas industry, register now and join us in this exciting competition.
+
+To register, please send an email to pdda_sig@spwla.org with your team name, team members, and the email address of the team lead.
+
+We look forward to seeing your innovative solutions.
+
+Best regards,
+
+Wen Pan
+
+
+### <a>Sponsoring Opportunities</a>
+Attention all companies interested in supporting data-driven solutions and innovative technologies!
+
+We are excited to announce our upcoming well-log depth shift machine learning competition and are seeking sponsors to help make it a success.
+
+This competition aims to challenge participants to develop innovative solutions for depth shift correction in well logs, which are crucial data sources for the oil and gas industry. By sponsoring this competition, your company can help us promote this critical task and encourage data science enthusiasts to develop solutions that will help advance the industry.
+
+Sponsoring our competition is an excellent opportunity for your company to showcase your brand to a targeted audience of data scientists, machine learning engineers, and other professionals interested in data-driven solutions. You will receive prominent visibility on our website and social media channels, and we will acknowledge your support in our press releases and other promotional materials.
+
+We invite all interested companies to consider sponsoring our event. Please find attached the sponsorship package, which outlines the various sponsorship opportunities available.
+
+Thank you for considering our proposal. We look forward to hearing from you soon.
+
+Best regards,
+
+Wen Pan
+
 
 ### <a>Scoring website</a>
 Please use the team leader's email to register. The link was sent in the email.
@@ -28,7 +68,7 @@ Please note that:
 8. Max submissions total: 100
 
 ### <a>Contest Committee</a>
-Lei Fu, Yanxiang Yu, Chicheng Xu, Michael Ashby, McDonald Andy, Bin Dai
+Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Jaehyuk Lee 
 
 <!-- #region -->
 ### <a>Description</a>
