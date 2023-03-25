@@ -98,17 +98,15 @@ Please note that:
 8. Max submissions per day: 3
 9. Max submissions total: 100
 
-### <a>Contest Committee</a>
-Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Jaehyuk Lee 
 
 
 ### <a>Timeline</a>
 
-- __October 15, 2021__ - Registration deadline. You must email Lei Fu (pdda_sig@spwla.org) with team information (team name, member names, affiliations, and emails) before this date in order to compete.
-- __November 1, 2021__ - Competition starts and data releases on github. 
-- __February 1, 2022__ - Submission deadline. 
-- __March 1, 2022__ - Announce winners.
-- __March 23/24, 2022__ - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
+- __April 15, 2023__ - Registration deadline. You must email Wen Pan (pdda_sig@spwla.org) with team information (team name, member names, affiliations, and emails) before this date in order to compete.
+- __April 22, 2023__ - Competition starts and data releases on github. 
+- __June 22, 2023__ - Submission deadline. 
+- __July 1, 2023__ - Announce winners.
+- __July 23/24, 2023__ - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
 
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
 
@@ -139,16 +137,7 @@ Note: The winners will additionally be required to provide a detailed descriptio
 Novel and practical algorithms will be recommended for a submission to the a SPWLA special issue by PDDA or a journal paper. 
 <!-- #endregion -->
 
-### <a>Data Licensing</a>
-The data comes from VOLVE dataset owned by Equinor. 
+### <a>Contest Committee</a>
+Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Jaehyuk Lee 
 
-DATA ACCESS AND USE: Creative Commons Attribution-NonCommercial-ShareAlike license.
-
-ENTRY IN THIS COMPETITION CONSTITUTES YOUR ACCEPTANCE OF THESE OFFICIAL COMPETITION RULES.
-
-The Competition named above is a skills-based competition to promote and further the field of data science. You must submit your registration to pdda_sig@spwla.org to enter. Your competition submissions ("Submissions") must conform to the requirements stated on the Competition Website. Your Submissions will be scored based on the evaluation metric described on the Competition Website. Subject to compliance with the Competition Rules, Prizes, if any, will be awarded to participants with the best scores, based on the merits of the data science models submitted. Check the competition website for the complete Competition Rules.
-
-
-### SPWLA PDDA SIG Contest Committee:
-Lei Fu, Yanxiang Yu, Chicheng Xu, Andy McDonald,  Michael Ashby.
 
