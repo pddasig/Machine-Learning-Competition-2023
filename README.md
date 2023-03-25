@@ -53,41 +53,54 @@ Best regards,
 
 Wen Pan
 
+### <a>Challenge Description</a>
+The objective of this contest is to develop a data-driven model to shift misaligned well logs to a reference GR log. Well logs of nine wells from the same field that have been depth shifted by a petrophysicist. Participants' models will be trained/validated with these nine wells and tested on misaligned well logs from other three wells from the same field.
 
-### <a>Scoring website</a>
-Please use the team leader's email to register. The link was sent in the email.
+The submission should include the shifted well logs and the shifted depths
+
+
+
+### <a>Evaluation and Scoring Website</a>
+Please register your team at Codalab with your team leader's email. A link to the competition will be sent to you to access the scoring system.
+You will be given nine wells with well logs aligned, then you will train a model to perform depth shift for three hidden wells with misaligned well logs. The gamma ray log (GR) is used as the reference log, you are required to shift the other well logs (Density (RHOB), Neutron (NPHI), and Resistivity (RD)) to align with the reference GR log. You will predict the values of corrected well logs (RHOB_pred, NPHI_pred, RD_pred), and the asssocited depth shift (RHOB_dept_pred, NPHI_dept_pred, RD_dept_pred) for the three test wells. You will be scored based on the normalized mean squared error (NMSE) of your well-log prediction and the Mean absolute deviation (MAD) of your depth shift prediction.
+
+Submissions are evaluated based on normalized mean squared error(NMSE) of corrected well logs and mean absolute deviation (MAD) of depth shift prediction, the final score will be rank transformed and averaged to avoid the scaling of different metrics. 
+
+$$NMSE = \frac{\frac{1}{m} \sum_{i=1}^{m}(\hat{y}_{i} - y_{i})^2}{Var(y_{i})}$$
+
+where
+- $\hat{y_i}$ the prediction of the **values** of shifted well logs, $y_i$ is the actual **values** of well logs shifted by a petrophysicist. 
+- $m$ is the sample size.
+- $Var$ is the variance.
+
+$$MAD = \frac{1}{m}\sum_{i=1}^{m}|\hat{\mathbf{d_{i}}} - \mathbf{d_{i}}| $$
+
+where
+- $\hat{d_i}$ is the prediction of **depth shift of raw well logs**, $d_i$ is the actual **depth shift of raw well logs** by a petrophysicist. 
+- $m$ is the sample size.
+
+
+**Note**:
+- Please remember to use random_state for all randomization steps, so the results are reproducible.
+- RD is transformed with log10 for RMSE calculation.
+- The two scores for your prediction of different well logs will be rank transformed, and averaged, e.g., if the **NMSE** of predictions for the values of RHOB, NPHI, and RD ranks 1st, and 3rd for the **MAD** of assosiated depth shifts, your final score would be  $$score = \frac{1+3}{2}=2 $$ The team with the minimum score win the competition
+- Understanding and optimizing your predictions for this evaluation metric is paramount for this competition.
+
 
 Please note that:
 1. Only one user can register for the competition per team. 
 2. __The user name has to be exactly the same as the team name__. If space is not allowed, please replace space with underscore '_'.
-3. The submission file must be a zip file with whatever name. __However, the name of the csv file inside the zip has to be "submission.csv"__. (the csv file should be in the same format as “example_1.csv” file on the GitHub page in terms of number of columns and rows, as well as exactly the same column names) 
+3. The submission file must be a zip file with three .csv files, which include your predictions of corrected/shfited well logs and their depth shift. **Note: the three csv files in your submission should have the same file names as the three files in the test set**  
 4. The submission status might need a couple minutes to be updated, don't refresh the page too often.
 5. The user needs to manually submit their best results to the leaderboard. Click "Participate", " Submit / View Results", click the "+" symbol in your submission. See the red circles in the attached figure.
-6. Please use version-control properly, as we need to validate your code and reproduce the results of the final submitted score in order to rank your team in the final scoreboard.  
-7. Max submissions per day: 3
-8. Max submissions total: 100
+6. The score you see in the leaderboard is scaled for better display. To see the actual scores for depth shift and well-log predictions, please Click "Participate", " Submit / View Results", click the "+" symbol in your submission, and Click "View scoring output log"
+7. Please use version-control properly, as we need to validate your code and reproduce the results of the final submitted score in order to rank your team in the final scoreboard.  
+8. Max submissions per day: 3
+9. Max submissions total: 100
 
 ### <a>Contest Committee</a>
 Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Jaehyuk Lee 
 
-<!-- #region -->
-### <a>Description</a>
-#### <a>Background</a>
-Well logs are interpreted/processed to estimate the in-situ reservoir properties (petrophysical, geomechanical, and geochemical), which is essential for reservoir modeling, reserve estimation, and production forecasting. The modeling is often based on multi-mineral physics or empirical formulae. When sufficient amount of training data is available, machine learning solution provides an alternative approach to estimate those reservoir properties based on well log data and is usually with less turn-around time and human involvements.
-
-#### <a>Problem Statement</a>
-The goal of this contest is to develop data-driven models to estimate reservoir properties including shale volume, porosity, and fluid saturation, based on a common set of well logs including gamma ray, bulk density, neutron porosity, resistivity, and sonic.
-
-You will be provided with log data from about 10 wells from the same field together with the corresponding reservoir properties estimated by petrophysicists. You need to build a data-driven model using the provided training dataset. Following that, you will deploy the newly developed data-driven models on the test dataset to predict the reservoir properties based on the well log data. 
-
-### <a>Evaluation</a>
-Submissions are evaluated according to root mean squared error(RMSE) calculated from the shale volume (VSH), porosity (PHIF), and water saturation (SW) values of the hidden dataset. The value of the hidden dataset is between 0 and 1.
-
-<img align="center" src="https://render.githubusercontent.com/render/math?math=RMSE = \sqrt{\frac{1}{m}\sum_{i=1}^{m}(\hat{\mathbf{y_{i}}} - \mathbf{y_{i}})^{2}}">
-
-
-- Here **\hat{y_i}** is the predicted values of the true values **y_i**. Both **\hat{y_i}** and **y_i** are vectors with 3 elements: shale volume (VSH), porosity (PHIF), and water saturation (SW). 
-- m is sample size.
 
 ### <a>Timeline</a>
 
