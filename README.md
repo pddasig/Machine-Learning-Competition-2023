@@ -5,12 +5,12 @@
 <!-- 
 - <a>Call for Registration </a>
 - <a>Sponsoring Opportunities</a>
-- <a>Description</a>
+- <a>Challenge Description</a>
 - <a>Evaluation</a>
 - <a>Timeline</a>
 - <a>Competition Rules</a>
 - <a>Contest Committee</a>
- -->
+-->
 
 ### <a>Call for Registration</a>
 Dear petrophysics and data science enthusiasts,
