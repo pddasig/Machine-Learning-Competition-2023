@@ -5,17 +5,17 @@
 <!-- 
 - <a>Call for Registration </a>
 - <a>Sponsoring Opportunities</a>
-- <a>Contest Committee</a>
 - <a>Description</a>
 - <a>Evaluation</a>
 - <a>Timeline</a>
 - <a>Competition Rules</a>
+- <a>Contest Committee</a>
  -->
 
 ### <a>Call for Registration</a>
 Dear petrophysics and data science enthusiasts,
 
-We are thrilled to announce our upcoming "Automatic Well-Log Depth Shift with Data-Driven Methods" machine learning competition, designed to challenge participants to develop innovative solutions for the critical task of depth-shift correction in well logs.
+We are thrilled to announce our upcoming **Automatic Well-Log Depth Shift with Data-Driven Methods** machine learning competition, designed to challenge participants to develop innovative solutions for the critical task of depth-shift correction in well logs.
 
 Well logs are crucial data sources for the oil and gas industry, providing critical information about subsurface formations and geological properties. However, the data collected through well logs can often be affected by borehole environments, such as the sticking and slipping of logging tools, resulting in inaccurate and unreliable results. Mannual depth shift of well logs is time-consuming and subject to the expertise of interpreters. To automate this process and improve the accuracy of depth shift, this is where your skills in machine learning can make a significant difference.
 
@@ -27,7 +27,7 @@ The winners will receive attractive prizes, including cash rewards, certificates
 
 So, if you are interested in testing your machine learning skills and contributing to the oil and gas industry, register now and join us in this exciting competition.
 
-To register, please send an email to pdda_sig@spwla.org with your team name, team members, and the email address of the team lead.
+To register, please send an email to **pdda_sig@spwla.org** with your team name, team members, and the email address of the team lead.
 
 We look forward to seeing your innovative solutions.
 
@@ -39,13 +39,13 @@ Wen Pan
 ### <a>Sponsoring Opportunities</a>
 Attention all companies interested in supporting data-driven solutions and innovative technologies!
 
-We are excited to announce our upcoming well-log depth shift machine learning competition and are seeking sponsors to help make it a success.
+We are excited to announce our upcoming **Automatic Well-Log Depth Shift with Data-Driven Methods** machine learning competition and are seeking sponsors to help make it a success.
 
-This competition aims to challenge participants to develop innovative solutions for depth shift correction in well logs, which are crucial data sources for the oil and gas industry. By sponsoring this competition, your company can help us promote this critical task and encourage data science enthusiasts to develop solutions that will help advance the industry.
+This competition aims to challenge participants to develop innovative solutions for automatic depth shift correction for well logs, which are crucial data sources for the oil and gas industry. By sponsoring this competition, your company can help us promote this critical task and encourage data science enthusiasts to develop solutions that will help advance the industry.
 
-Sponsoring our competition is an excellent opportunity for your company to showcase your brand to a targeted audience of data scientists, machine learning engineers, and other professionals interested in data-driven solutions. You will receive prominent visibility on our website and social media channels, and we will acknowledge your support in our press releases and other promotional materials.
+Sponsoring our competition is an excellent opportunity for your company to showcase your brand to a targeted audience of petrophysicists, petroleum engineers, data scientists, machine learning engineers, and other professionals interested in data-driven solutions. You will receive prominent visibility on our website, conferences and social media channels, and we will acknowledge your support in our press releases (journals and conference preceedings) and other promotional materials.
 
-We invite all interested companies to consider sponsoring our event. Please find attached the sponsorship package, which outlines the various sponsorship opportunities available.
+We invite all interested companies to consider sponsoring our event. Please contact us via our email **pdda_sig@spwla.org**.
 
 Thank you for considering our proposal. We look forward to hearing from you soon.
 
