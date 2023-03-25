@@ -83,7 +83,7 @@ where
 **Note**:
 - Please remember to use random_state for all randomization steps, so the results are reproducible.
 - RD is transformed with log10 for RMSE calculation.
-- The two scores for your prediction of different well logs will be rank transformed, and averaged, e.g., if the **NMSE** of predictions for the values of RHOB, NPHI, and RD ranks 1st, and 3rd for the **MAD** of assosiated depth shifts, your final score would be  $$score = \frac{1+3}{2}=2 $$ The team with the minimum score win the competition
+- The two scores for your prediction of different well logs will be rank transformed, and averaged, e.g., if the **NMSE** of predictions for the values of RHOB, NPHI, and RD ranks 1st, and the **MAD** of assosiated depth shifts ranks 3rd, your final score would be  $$score = \frac{1+3}{2}=2 $$ The team with the minimum score win the competition
 - Understanding and optimizing your predictions for this evaluation metric is paramount for this competition.
 
 
