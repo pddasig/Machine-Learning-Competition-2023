@@ -118,9 +118,8 @@ All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise note
 4. A contestant will submit the estimated reservoir properties for testing wells.
 5. A contestant will submit the source code and a brief report documenting the accuracy achieved in a few plots.
 6. The judges will review the source code.
-7. The performance of the model will be quantified in terms of root mean square error (RMSE).
-8. A leaderboard will be updating the rank of submissions from each team.
-9. The contestant with the best quality source code and the best performance will be declared the winner for this competition.
+7. A leaderboard will be updating the rank of submissions from each team, but the score and rank is subject to scaling and change.
+8. The contestant with the best quality source code and the best performance will be declared the winner for this competition.
     
 ### <a>Prize Policy</a>
 
