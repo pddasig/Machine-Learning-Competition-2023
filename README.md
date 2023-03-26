@@ -21,7 +21,7 @@ Well logs are crucial data sources for the oil and gas industry, providing criti
 
 We invite all petrophysicists, data scientists, machine learning engineers, and anyone passionate about data-driven solutions to join our competition. The objective is to develop a depth shift correction model that can accurately and efficiently correct depth shifts in well logs.
 
-The competition will be hosted on a Codalab and will run for eight weeks. Participants will have access to a well-curated dataset, including a training set of 9 depth-aligned well logs and a test set of 3 misasligned well logs. They will develop data-driven model to automatically predict the depth shift for misaligned well logs in the test set. Their solutions will be evaluated based on the prediction accuracy of depth shift and the shifted well-log values. More details can be found in the tutorial provided.
+The competition will be hosted on a Codalab and will run for eight weeks. Participants will have access to a well-curated dataset, including a training set of 9 depth-aligned well log set and a test set of 3 misasligned well log set. They will develop data-driven model to automatically predict the depth shift for misaligned well logs in the test set. Their solutions will be evaluated based on the prediction accuracy of depth shift and the shifted well-log values. More details can be found in the tutorial provided.
 
 The winners will receive attractive prizes, including non-cash rewards(could be gift cards), certificates, and a chance to showcase their solution to industry experts in the upcoming SPWLA conferences.
 
@@ -71,7 +71,7 @@ The metrics for scoring are as follows:
 $$NMSE = \frac{1}{mn}\frac{1}{Var(\mathbf{y})}\sum_{i=1}^{m}\sum_{j=1}^{n}(\hat{\mathbf{y_{i,j}}} - \mathbf{y_{i,j}})^{2}$$
 
 where
-- $\hat{y_{i,j}}$ the prediction of the **values** of shifted well log j for sample i, $y_{i,j}$ is the actual **values** of the well log j for sample i shifted by a petrophysicist. 
+- $\hat{y_{i,j}}$ the prediction (RHOB_pred, NPHI_pred, RD_pred) of the **values** of shifted well log j for sample i, $y_{i,j}$ is the actual **values** of the well log j for sample i shifted by a petrophysicist. 
 - $m$ is the sample size.
 - $n$ is the number of well logs (RHOB, NPHI, RD): 3.
 - $Var$ is the variance.
@@ -79,7 +79,7 @@ where
 $$MAD = \frac{1}{mn}\sum_{i=1}^{m}\sum_{j=1}^{n}|\hat{\mathbf{d_{i,j}}} - \mathbf{d_{i,j}}| $$
 
 where
-- $\hat{d_{i,j}}$ is the prediction of **depth shift** of raw well log j for sample i, $d_{i,j}$ is the actual **depth shift of raw well logs** by a petrophysicist. 
+- $\hat{d_{i,j}}$ is the prediction (RHOB_dept_pred, NPHI_dept_pred, RD_dept_pred) of **depth shift** of raw well log j for sample i, $d_{i,j}$ is the actual **depth shift of raw well logs** by a petrophysicist. 
 - $m$ is the sample size.
 - $n$ is the number of well logs (RHOB, NPHI, RD): 3.
 
