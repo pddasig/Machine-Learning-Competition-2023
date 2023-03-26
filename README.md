@@ -23,7 +23,7 @@ We invite all petrophysicists, data scientists, machine learning engineers, and 
 
 The competition will be hosted on a Codalab and will run for eight weeks. Participants will have access to a well-curated dataset, including a training set of 9 depth-aligned well logs and a test set of 3 misasligned well logs. They will develop data-driven model to automatically predict the depth shift for misaligned well logs in the test set. Their solutions will be evaluated based on the prediction accuracy of depth shift and the shifted well-log values. More details can be found in the tutorial provided.
 
-The winners will receive attractive prizes, including cash rewards, certificates, and a chance to showcase their solution to industry experts in the upcoming SPWLA conferences.
+The winners will receive attractive prizes, including non-cash rewards(could be gift cards), certificates, and a chance to showcase their solution to industry experts in the upcoming SPWLA conferences.
 
 So, if you are interested in testing your machine learning skills and contributing to the oil and gas industry, register now and join us in this exciting competition.
 
