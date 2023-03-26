@@ -17,7 +17,7 @@ Dear petrophysics and data science enthusiasts,
 
 We are thrilled to announce our upcoming **Automatic Well-Log Depth Shift with Data-Driven Methods** machine learning competition, designed to challenge participants to develop innovative solutions for the critical task of depth-shift correction in well logs.
 
-Well logs are crucial data sources for the oil and gas industry, providing critical information about subsurface formations and geological properties. However, the data collected through well logs can often be affected by borehole environments, such as the sticking and slipping of logging tools, resulting in inaccurate and unreliable results. Mannual depth shift of well logs is time-consuming and subject to the expertise of interpreters. To automate this process and improve the accuracy of depth shift, this is where your skills in machine learning can make a significant difference.
+Well logs are crucial data sources for the oil and gas industry, providing critical information about subsurface formations and geological properties. However, the data collected through well logs can often be affected by borehole environments, such as the sticking and slipping of logging tools, resulting in inaccurate and unreliable results. Manual depth shift of well logs is time-consuming and subject to the expertise of interpreters. To automate this process and improve the accuracy of depth shift, this is where your skills in machine learning can make a significant difference.
 
 We invite all petrophysicists, data scientists, machine learning engineers, and anyone passionate about data-driven solutions to join our competition. The objective is to develop a depth shift correction model that can accurately and efficiently correct depth shifts in well logs.
 
@@ -64,20 +64,24 @@ The submission should include the shifted well logs and the shifted depths
 Please register your team at Codalab with your team leader's email. A link to the competition will be sent to you to access the scoring system.
 You will be given nine wells with well logs aligned, then you will train a model to perform depth shift for three hidden wells with misaligned well logs. The gamma ray log (GR) is used as the reference log, you are required to shift the other well logs (Density (RHOB), Neutron (NPHI), and Resistivity (RD)) to align with the reference GR log. You will predict the values of corrected well logs (RHOB_pred, NPHI_pred, RD_pred), and the asssocited depth shift (RHOB_dept_pred, NPHI_dept_pred, RD_dept_pred) for the three test wells. You will be scored based on the normalized mean squared error (NMSE) of your well-log prediction and the Mean absolute deviation (MAD) of your depth shift prediction.
 
-Submissions are evaluated based on normalized mean squared error(NMSE) of corrected well logs and mean absolute deviation (MAD) of depth shift prediction, the final score will be rank transformed and averaged to avoid the scaling of different metrics. 
+Submissions are evaluated based on normalized mean squared error(NMSE) of corrected well logs and mean absolute deviation (MAD) of depth shift prediction, the final score will be rank transformed and averaged to avoid the scaling of different metrics.
 
-$$NMSE = \frac{1}{m}\frac{1}{Var(\mathbf{y_{i}})}\sum_{i=1}^{m}(\hat{\mathbf{y_{i}}} - \mathbf{y_{i}})^{2}$$
+The metrics for scoring are as follows:
+
+$$NMSE = \frac{1}{mn}\frac{1}{Var(\mathbf{y})}\sum_{i=1}^{m}\sum_{j=1}^{n}(\hat{\mathbf{y_{i,j}}} - \mathbf{y_{i,j}})^{2}$$
 
 where
-- $\hat{y_i}$ the prediction of the **values** of shifted well logs, $y_i$ is the actual **values** of well logs shifted by a petrophysicist. 
+- $\hat{y_{i,j}}$ the prediction of the **values** of shifted well log j for sample i, $y_{i,j}$ is the actual **values** of the well log j for sample i shifted by a petrophysicist. 
 - $m$ is the sample size.
+- $n$ is the number of well logs (RHOB, NPHI, RD): 3.
 - $Var$ is the variance.
 
-$$MAD = \frac{1}{m}\sum_{i=1}^{m}|\hat{\mathbf{d_{i}}} - \mathbf{d_{i}}| $$
+$$MAD = \frac{1}{mn}\sum_{i=1}^{m}\sum_{j=1}^{n}|\hat{\mathbf{d_{i,j}}} - \mathbf{d_{i,j}}| $$
 
 where
-- $\hat{d_i}$ is the prediction of **depth shift of raw well logs**, $d_i$ is the actual **depth shift of raw well logs** by a petrophysicist. 
+- $\hat{d_{i,j}}$ is the prediction of **depth shift** of raw well log j for sample i, $d_{i,j}$ is the actual **depth shift of raw well logs** by a petrophysicist. 
 - $m$ is the sample size.
+- $n$ is the number of well logs (RHOB, NPHI, RD): 3.
 
 
 **Note**:
@@ -87,7 +91,7 @@ where
 - Understanding and optimizing your predictions for this evaluation metric is paramount for this competition.
 
 
-Please note that:
+**Notes for submission:**
 1. Only one user can register for the competition per team. 
 2. __The user name has to be exactly the same as the team name__. If space is not allowed, please replace space with underscore '_'.
 3. The submission file must be a zip file with three .csv files, which include your predictions of corrected/shfited well logs and their depth shift. **Note: the three csv files in your submission should have the same file names as the three files in the test set**  
@@ -102,11 +106,11 @@ Please note that:
 
 ### <a>Timeline</a>
 
-- __April 15, 2023__ - Registration deadline. You must email Wen Pan (pdda_sig@spwla.org) with team information (team name, member names, affiliations, and emails) before this date in order to compete.
-- __April 22, 2023__ - Competition starts and data releases on github. 
-- __June 22, 2023__ - Submission deadline. 
-- __July 1, 2023__ - Announce winners.
-- __July 23/24, 2023__ - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
+- __March 26, 2023__ - Registration starts. You must email Wen Pan (pdda_sig@spwla.org) with team information (team name, member names, affiliations, and emails) to get the submission URL.
+- __March 31, 2023__ - Competition starts and data releases on github. 
+- __May 26, 2023__ - Submission deadline. 
+- __May 31, 2023__ - Announce winners.
+- __June 15/16, 2023__ (tentative) - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
 
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
 
@@ -115,7 +119,7 @@ All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise note
 1. Contestant can be an individual or a group with the maximum size of 4.
 2. The contest focuses on data-driven methods, the use of additional data or petrophysical equations is not allowed.
 3. Privately sharing code or data outside of teams is not permitted. However, it's okay to share code if made available to all participants on the competition Github repository via submitting issues or pull requests. 
-4. A contestant will submit the estimated reservoir properties for testing wells.
+4. A contestant will submit the predictions for both **corrected well log** and the **depth shift** of each type of well logs for each testing wells
 5. A contestant will submit the source code and a brief report documenting the accuracy achieved in a few plots.
 6. The judges will review the source code.
 7. A leaderboard will be updating the rank of submissions from each team, but the score and rank is subject to scaling and change.
@@ -131,7 +135,7 @@ All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise note
 
 Top 5 winning teams will be awarded with prizes(NOT in cash).
 
-Note: The winners will additionally be required to provide a detailed description of their method in order to claim the prize (minimum of 2 pages double-column) by July 1, 2023.
+Note: The winners will additionally be required to provide a detailed description of their method in order to claim the prize (minimum of 2 pages double-column) by June 15, 2023.
 
 Novel and practical algorithms will be recommended for a submission to the a SPWLA special issue by PDDA or a journal paper. 
 <!-- #endregion -->
