@@ -94,13 +94,14 @@ where
 **Notes for submission:**
 1. Only one user can register for the competition per team. 
 2. __The user name has to be exactly the same as the team name__. If space is not allowed, please replace space with underscore '_'.
-3. The submission file must be a zip file with three .csv files, which include your predictions of corrected/shfited well logs and their depth shift. **Note: the three csv files in your submission should have the same file names as the three files in the test set**  
-4. The submission status might need a couple minutes to be updated, don't refresh the page too often.
-5. The user needs to manually submit their best results to the leaderboard. Click "Participate", " Submit / View Results", click the "+" symbol in your submission. See the red circles in the attached figure.
-6. The score you see in the leaderboard is scaled for better display. To see the actual scores for depth shift and well-log predictions, please Click "Participate", " Submit / View Results", click the "+" symbol in your submission, and Click "View scoring output log"
-7. Please use version-control properly, as we need to validate your code and reproduce the results of the final submitted score in order to rank your team in the final scoreboard.  
-8. Max submissions per day: 3
-9. Max submissions total: 100
+3. The submission file must be a zip file with three .csv files, which include your predictions of corrected/shfited well logs and their depth shift. **Note: the three csv files in your submission should have the same file names as the three files in the test set**, see name convention below. 
+- Zipped csv file name {team_name}_submission_{number of submission}.zip, which should contain (aligned_well_01.csv, aligned_well_02.csv, and aligned_well_03.csv) 
+5. The submission status might need a couple minutes to be updated, don't refresh the page too often.
+6. The user needs to manually submit their best results to the leaderboard. Click "Participate", " Submit / View Results", click the "+" symbol in your submission. See the red circles in the attached figure.
+7. The score you see in the leaderboard is scaled for better display. To see the actual scores for depth shift and well-log predictions, please Click "Participate", " Submit / View Results", click the "+" symbol in your submission, and Click "View scoring output log"
+8. Please use version-control properly, as we need to validate your code and reproduce the results of the final submitted score in order to rank your team in the final scoreboard.  
+9. Max submissions per day: 3
+10. Max submissions total: 100
 
 
 
