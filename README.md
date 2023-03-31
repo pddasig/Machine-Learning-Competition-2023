@@ -98,7 +98,7 @@ where
 - Submission should be zipped csv file: **{team_name}\_submission\_{number of submission}.zip**, which should contain (aligned_well_01.csv, aligned_well_02.csv, and aligned_well_03.csv) 
 5. The submission status might need a couple minutes to be updated, don't refresh the page too often.
 6. The user needs to manually submit their best results to the leaderboard. Click "Participate", " Submit / View Results", click the "+" symbol in your submission. See the red circles in the attached figure.
-7. The score you see in the leaderboard is scaled for better display. To see the actual scores for depth shift and well-log predictions, please Click "Participate", " Submit / View Results", click the "+" symbol in your submission, and Click "View scoring output log"
+7. Since Codalab doesn't support two scores or randk transformation, the score you see in the leaderboard is scaled for better display, the first 4 digits represent the scaled NMSE, and the last 4 digits represent the scaled MAD, the final ranking may be different from the leaderboard in Codalab after we collect all submissions. To see the actual scores for depth shift and well-log predictions, please Click "Participate", " Submit / View Results", click the "+" symbol in your submission, and Click "View scoring output log"
 8. Please use version-control properly, as we need to validate your code and reproduce the results of the final submitted score in order to rank your team in the final scoreboard.  
 9. Max submissions per day: 3
 10. Max submissions total: 100
