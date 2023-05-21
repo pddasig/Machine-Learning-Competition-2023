@@ -110,9 +110,9 @@ where
 
 - __March 26, 2023__ - Registration starts. You must email Wen Pan (pdda_sig@spwla.org) with team information (team name, member names, affiliations, and emails) to get the submission URL.
 - __March 31, 2023__ - Competition starts and data releases on github. 
-- __May 26, 2023__ - Submission deadline. 
-- __May 31, 2023__ - Announce winners.
-- __June 15/16, 2023__ (tentative) - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
+- __August 26, 2023__ - Submission deadline. 
+- __August 31, 2023__ - Announce winners.
+- __September/October, 2023__ (tentative) - Award ceremony and presentations in the special session of the SPWLA Spring Topical Conference - Petrophysical Machine Learning.
 
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
 
@@ -143,6 +143,6 @@ Novel and practical algorithms will be recommended for a submission to the a SPW
 <!-- #endregion -->
 
 ### <a>Contest Committee</a>
-Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Jaehyuk Lee 
+Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Chicheng Xu, Jaehyuk Lee 
 
 
