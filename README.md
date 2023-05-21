@@ -33,7 +33,7 @@ We look forward to seeing your innovative solutions.
 
 Best regards,
 
-Wen Pan
+SPWLA PDDA Committee
 
 
 ### <a>Sponsoring Opportunities</a>
@@ -51,7 +51,7 @@ Thank you for considering our proposal. We look forward to hearing from you soon
 
 Best regards,
 
-Wen Pan
+SPWLA PDDA Committee
 
 ### <a>Challenge Description</a>
 The objective of this contest is to develop a data-driven model to shift misaligned well logs to a reference GR log. Well logs of nine wells from the same field that have been depth shifted by a petrophysicist. Participants' models will be trained/validated with these nine wells and tested on misaligned well logs from other three wells from the same field.
