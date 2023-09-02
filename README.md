@@ -14,27 +14,22 @@
 ### Winner:
 |           | Winner Team      | Contact |
 |-----------|-------------|-----------|
-
 | ***1st Place*** | **Dreamstar**        | Fan Meng <mengfan.1993@163.com> |
 | | | Siyuan Chen <202222000618@stu.swpu.edu.cn> |
 | | | Yingying Ye <1053945495@qq.com> |
 | | | Hailong Jiang <1848588771@qq.com> |
-
 | ***2nd Place*** | **WELL-LOGGED**      | Hyunmin Kim <hyun_0210@inha.edu> |
 | | | Heesung Kong <wjdvy970327@gmail.com> |
 | | | Inwook Baek <inwook.baek@inha.edu> |
 | | | Jinhyeon Baek <22231152@inha.edu> |
-
 | ***3rd Place*** | **ARC_CNLC**       | Hao Sun <sunhaocnpc@163.com>|
 | | | Siyi Li |
 | | | Xuekai Sun |
 | | | Zimeng Zhao |
-
 | ***4th Place*** | **All For A Dream** | Ankang Feng <1504462758@qq.com> |
 | | | Yuxin Ke |
 | | | Wei Hu |
 | | | Yifan Wu |
-
 | ***5th Place*** | **IGPL**            |  Byunghoon Choi <bhoon1121@gmail.com> |
 | | | Hojin Kang |
 | | | JunHa Park |
