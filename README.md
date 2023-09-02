@@ -3,55 +3,50 @@
 
 <img style="float: left;" src="image/pdda.png" alt="pdda" title="" width="300" height="100"/>
 <!-- 
-- <a>Call for Registration </a>
-- <a>Sponsoring Opportunities</a>
-- <a>Challenge Description</a>
+- <a>Results </a>
 - <a>Evaluation</a>
 - <a>Timeline</a>
 - <a>Competition Rules</a>
 - <a>Contest Committee</a>
 -->
 
-### <a>Call for Registration</a>
-Dear petrophysics and data science enthusiasts,
+### <a>Winners</a>
+### Winner:
+|           | Winner Team      | Contact |
+|-----------|-------------|-----------|
 
-We are thrilled to announce our upcoming **Automatic Well-Log Depth Shift with Data-Driven Methods** machine learning competition, designed to challenge participants to develop innovative solutions for the critical task of depth-shift correction in well logs.
+| ***1st Place*** | **Dreamstar**        | Fan Meng <mengfan.1993@163.com> |
+| | | Siyuan Chen <202222000618@stu.swpu.edu.cn> |
+| | | Yingying Ye <1053945495@qq.com> |
+| | | Hailong Jiang <1848588771@qq.com> |
 
-Well logs are crucial data sources for the oil and gas industry, providing critical information about subsurface formations and geological properties. However, the data collected through well logs can often be affected by borehole environments, such as the sticking and slipping of logging tools, resulting in inaccurate and unreliable results. Manual depth shift of well logs is time-consuming and subject to the expertise of interpreters. To automate this process and improve the accuracy of depth shift, this is where your skills in machine learning can make a significant difference.
+| ***2nd Place*** | **WELL-LOGGED**      | Hyunmin Kim <hyun_0210@inha.edu> |
+| | | Heesung Kong <wjdvy970327@gmail.com> |
+| | | Inwook Baek <inwook.baek@inha.edu> |
+| | | Jinhyeon Baek <22231152@inha.edu> |
 
-We invite all petrophysicists, data scientists, machine learning engineers, and anyone passionate about data-driven solutions to join our competition. The objective is to develop a depth shift correction model that can accurately and efficiently correct depth shifts in well logs.
+| ***3rd Place*** | **ARC_CNLC**       | Hao Sun <sunhaocnpc@163.com>|
+| | | Siyi Li |
+| | | Xuekai Sun |
+| | | Zimeng Zhao |
 
-The competition will be hosted on a Codalab and will run for eight weeks. Participants will have access to a well-curated dataset, including a training set of 9 depth-aligned well log set and a test set of 3 misasligned well log set. They will develop data-driven model to automatically predict the depth shift for misaligned well logs in the test set. Their solutions will be evaluated based on the prediction accuracy of depth shift and the shifted well-log values. More details can be found in the tutorial provided.
+| ***4th Place*** | **All For A Dream** | Ankang Feng <1504462758@qq.com> |
+| | | Yuxin Ke |
+| | | Wei Hu |
+| | | Yifan Wu |
 
-The winners will receive attractive prizes, including non-cash rewards(could be gift cards), certificates, and a chance to showcase their solution to industry experts in the upcoming SPWLA conferences.
+| ***5th Place*** | **IGPL**            |  Byunghoon Choi <bhoon1121@gmail.com> |
+| | | Hojin Kang |
+| | | JunHa Park |
 
-So, if you are interested in testing your machine learning skills and contributing to the oil and gas industry, register now and join us in this exciting competition.
-
-To register, please send an email to **pdda_sig@spwla.org** with your team name, team members, and the email address of the team lead.
-
-We look forward to seeing your innovative solutions.
-
-Best regards,
-
-SPWLA PDDA Committee
-
-
-### <a>Sponsoring Opportunities</a>
-Attention all companies interested in supporting data-driven solutions and innovative technologies!
-
-We are excited to announce our upcoming **Automatic Well-Log Depth Shift with Data-Driven Methods** machine learning competition and are seeking sponsors to help make it a success.
-
-This competition aims to challenge participants to develop innovative solutions for automatic depth shift correction for well logs, which are crucial data sources for the oil and gas industry. By sponsoring this competition, your company can help us promote this critical task and encourage data science enthusiasts to develop solutions that will help advance the industry.
-
-Sponsoring our competition is an excellent opportunity for your company to showcase your brand to a targeted audience of petrophysicists, petroleum engineers, data scientists, machine learning engineers, and other professionals interested in data-driven solutions. You will receive prominent visibility on our website, conferences and social media channels, and we will acknowledge your support in our press releases (journals and conference preceedings) and other promotional materials.
-
-We invite all interested companies to consider sponsoring our event. Please contact us via our email **pdda_sig@spwla.org**.
-
-Thank you for considering our proposal. We look forward to hearing from you soon.
-
-Best regards,
-
-SPWLA PDDA Committee
+### Leaderboard
+| Rank | Team Name               | Best Score| Best Solution        | Notebook                                                                                                                                                         |
+|:----:|-------------------------|-----------|----------------------|------------|
+|   1  | Dreamstar               |    550    |     | [Notebook]() |
+|   2  | WELL-LOGGED             |    551    |   | [Notebook]() |
+|   3  | ARC_CNLC                |    552    |   | [Notebook]() |
+|   4  | All For A Dream         |    559    |  | [Notebook]() |
+|   5  | IGPL                    |    564    |  | [Notebook]() |
 
 ### <a>Challenge Description</a>
 The objective of this contest is to develop a data-driven model to shift misaligned well logs to a reference GR log. Well logs of nine wells from the same field that have been depth shifted by a petrophysicist. Participants' models will be trained/validated with these nine wells and tested on misaligned well logs from other three wells from the same field.
