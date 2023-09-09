@@ -22,10 +22,10 @@
 | | | Heesung Kong <wjdvy970327@gmail.com> |
 | | | Inwook Baek <inwook.baek@inha.edu> |
 | | | Jinhyeon Baek <22231152@inha.edu> |
-| ***3rd Place*** | **ARC_CNLC**       | Hao Sun <sunhaocnpc@163.com>|
-| | | Siyi Li |
-| | | Xuekai Sun |
-| | | Zimeng Zhao |
+| ***3rd Place*** | **ARC_CNLC**       | Xuekai Sun <sxk.cjjs@cnpc.com.cn>|
+| | | Hao Sun <sunhaocnpc@163.com> |
+| | | Siyi Li <lisiyi@cnpc.com.cn> |
+| | | ZiMeng Zhao <zhaozimeng.cnlc@cnpc.com.cn> |
 | ***4th Place*** | **All For A Dream** | Ankang Feng <1504462758@qq.com> |
 | | | Yuxin Ke |
 | | | Wei Hu |
