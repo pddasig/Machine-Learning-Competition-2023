@@ -31,7 +31,7 @@
 | | | Wei Hu |
 | | | Yifan Wu |
 | ***5th Place*** | **IGPL**            |  Byunghoon Choi <bhoon1121@gmail.com> |
-| | | Hojin Kang |
+| | | Hojin Kang <rkdghwls1010@naver>|
 | | | JunHa Park |
 
 ### Leaderboard
