@@ -26,8 +26,8 @@
 | | | Hao Sun <sunhaocnpc@163.com> |
 | | | Siyi Li <lisiyi@cnpc.com.cn> |
 | | | ZiMeng Zhao <zhaozimeng.cnlc@cnpc.com.cn> |
-| ***4th Place*** | **All For A Dream** | Ankang Feng <1504462758@qq.com> |
-| | | Yuxin Ke |
+| ***4th Place*** | **All For A Dream** | Yuxin Ke <1504462758@qq.com> |
+| | | Ankang Feng <1504462758@qq.com> |
 | | | Wei Hu |
 | | | Yifan Wu |
 | ***5th Place*** | **IGPL**            |  Byunghoon Choi <bhoon1121@gmail.com> |
