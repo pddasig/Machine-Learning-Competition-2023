@@ -40,7 +40,7 @@
 |   1  | Dreamstar               |    550    | MDWD+RNN(GRU)+DTW    | [Github](https://github.com/arrayofstar/dreamstar) |
 |   2  | WELL-LOGGED             |    551    |   | [Notebook]() |
 |   3  | ARC_CNLC                |    552    |   | [Notebook]() |
-|   4  | All For A Dream         |    559    |  | [Notebook]() |
+|   4  | All For A Dream         |    559    |  Ridge regression+DTW | [Notebook]() |
 |   5  | IGPL                    |    564    |  | [Notebook]() |
 
 ### <a>Challenge Description</a>
