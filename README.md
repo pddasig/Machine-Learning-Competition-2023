@@ -41,7 +41,7 @@
 |   2  | WELL-LOGGED             |    551    |   | [Notebook]() |
 |   3  | ARC_CNLC                |    552    |   | [Notebook]() |
 |   4  | All For A Dream         |    559    |  Ridge regression+DTW | [Notebook](https://github.com/pddasig/Machine-Learning-Competition-2023/blob/main/Solutions/All%20for%20a%20dream.ipynb) |
-|   5  | IGPL                    |    564    |  | [Notebook]() |
+|   5  | IGPL                    |    564    |  | [CNN+DTW](https://github.com/pddasig/Machine-Learning-Competition-2023/tree/main/Solutions/IGPL) |
 
 ### <a>Challenge Description</a>
 The objective of this contest is to develop a data-driven model to shift misaligned well logs to a reference GR log. Well logs of nine wells from the same field that have been depth shifted by a petrophysicist. Participants' models will be trained/validated with these nine wells and tested on misaligned well logs from other three wells from the same field.
