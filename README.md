@@ -11,7 +11,6 @@
 -->
 
 ### <a>Winners</a>
-### Winner:
 |           | Winner Team      | Contact |
 |-----------|-------------|-----------|
 | ***1st Place*** | **Dreamstar**        | Fan Meng <mengfan.1993@163.com> |
