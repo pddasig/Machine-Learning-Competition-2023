@@ -132,6 +132,6 @@ Novel and practical algorithms will be recommended for a submission to the a SPW
 <!-- #endregion -->
 
 ### <a>Contest Committee</a>
-Wen Pan, Michael Ashby, Lei Fu, Yanxiang Yu, HyungJoo Lee, Chicheng Xu, Jaehyuk Lee 
+Wen Pan (Architect), Michael Ashby (align well logs), Lei Fu, Yanxiang Yu, HyungJoo Lee, Chicheng Xu, Jaehyuk Lee 
 
 
